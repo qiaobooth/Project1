@@ -2,10 +2,7 @@
     	EditText et_name = (EditText) findViewById(R.id.et_name);
     	EditText et_pass = (EditText) findViewById(R.id.et_pass);
     	
-    	final String name = et_name.getText().toString();
-    	final String pass = et_pass.getText().toString();
-    	
-    	
+  
     	Thread t = new Thread(){
     		@Override
     		public void run() {
